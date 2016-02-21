@@ -19,4 +19,23 @@
 #+SUBTITLE:
 #+DATE: \today
 
-Please see [[http://rkrug.github.io/Recipies/]] for the recipies.
+* Our Famous Brown Bread
+** Recipe
+- 150 gr Roggen
+- 250 gr de pain au graines
+- 100 gr 65 blée
+- 50 gr de flocons d'avoine
+
+
+- 2 cc de levure
+- 500 ml de l'eau
+- 0.5 cc sucre
+- 1 cs l'huile
+- 1 cs de miel
+- 1 cs molasse
+- 1 cc sel
+
+- 15 -- 30 minutes gehen lassesn, Volumen verdoppelt
+- 180 C ca. 1h
+
+** Verdict
