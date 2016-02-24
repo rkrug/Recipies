@@ -36,5 +36,16 @@
 #+CREATOR: <a href="http://www.gnu.org/software/emacs/">Emacs</a> 25.0.91.1 (<a href="http://orgmode.org">Org</a> mode 8.3.3)
 #+LATEX_HEADER:
 
+#+MACRO: deg       (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\textdegree{}C" "˚C"             ))
+#+MACRO: clearpage (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\clearpage"        ""               ))
+#+MACRO: pb        (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\pagebreak"        ""               ))
+
 
 #+INCLUDE: ./FamousBrownBread.org
+{{{pb}}}
+
+#+INCLUDE: ./Toastbrot.org 
+
+* Books
+
+Lutz Geisler (2013), Das Brot Back Buch - Grundlagen & Rezepte für ursprüngliches Brot (2013). ISBN 978-3-8001-8277-0 [[http://www.ulmer.de/Brotbackbuch-Nr-1,L1VMTUVSU0hPUF9ERVRBSUw_U0hPUF9JRD00MzQxOTE3Jk1JRD0zMjEw.html?UID=AFC08E9A5435A28CB83B9A55C06AFDFFDC9ECD9A26BF97][bei Ulmer Verlag]],  [[http://www.amazon.de/Brotbackbuch-Nr-Grundlagen-Rezepte-urspr%25C3%25BCngliches/dp/3800182777/ref=sr_1_1?ie=UTF8&qid=1456321285&sr=8-1&keywords=das+brot+back+buch][bei Amazon.de]] 

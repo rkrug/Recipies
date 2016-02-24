@@ -1,0 +1,79 @@
+#+TITLE: Toastbrot
+#+AUTHOR: Rainer M. Krug
+#+EMAIL: Rainer@krugs.de
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.91.1 (Org mode 8.3.3)
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE:
+#+DATE: \today
+
+#+MACRO: deg       (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\textdegree{}C" "˚C"             ))
+#+MACRO: clearpage (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\clearpage"        ""               ))
+
+
+* Toastbrot nach "Das Brot Backbuch"
+This recipe is from "Das Brot Back Buch" (Geisler 2013)
+
+[[./images/Toastbrot_1.jpg]]
+
+** Recipe
+- 10 gr Frischhefe
+- 7 gr Salz
+- 70 gr Wasser
+
+Mischen und 4 -- 12 Stunden im Kühlschrank lagern
+
+- 365 gr 65 blée
+- 170 gr Wasser
+- 20 gr Süße Sahne
+- 10 gr Zucker
+  
+Mischen mit dem Hefeansatz
+5 Minuten Küchenmaschine kneten - 10 Minuten bis straffer, elastischen Teig
+
+- 20 gr Butter
+
+in kleinen Stücken dazugeben, 10 Minuten zweiter Stufe kneten, nicht kleben und seidenmatt.
+
+2 Stunden gehen lassen (24{{{deg}}}), nach 1h falten
+
+rundwirken
+
+15 Minuten entspannen
+
+Kastenform mit etwas Öl und Mehl bestäuben
+
+40cm langen Strang rollen, in 4 Teile schneiden und quer in Kastenform hintereinender legen
+
+1.5 h bei 24{{{deg}}} gehen lassen 
+
+210{{{deg}}} vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
+
+danach Brot aus Form nehmen und weiter 10 Minuten ohne Form backen
+
+In heißem zustand mit Wasser bestreichen
+
+Auf Gitterrost komplett unbedeckt komplett abkühlen lassen
+
+** Verdict
+- Nur 5 Minuten ohne Form gebacken da schon recht dunkel.
+- Optisch etwas dunkel
+** Tweaking
+- 10 gr Zucker nur
+- 150 gramm Wasser - teig war recht feucht und brauchte recht viel Mehl
+- Backen bei Herdeinstellung 210{{{deg}}} und 15 Minuten nach abdampfen
+

@@ -19,6 +19,10 @@
 #+SUBTITLE:
 #+DATE: \today
 
+#+MACRO: deg       (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\textdegree{}C" "˚C"             ))
+#+MACRO: clearpage (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\clearpage"        ""               ))
+
+
 * Our Famous Brown Bread
 ** Recipe
 - 150 gr Roggen
@@ -37,7 +41,7 @@
 
 
 - 15 -- 30 minutes gehen lassesn, Volumen verdoppelt
-- 180 C ca. 1h
+- 180{{{deg}}} ca. 1h
 
 ** Verdict
 Better, but dough probably to moist. Amount of water will be reduced for next try (suggest 450 ml).
