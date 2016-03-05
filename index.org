@@ -45,6 +45,10 @@
 {{{pb}}}
 
 #+INCLUDE: ./Toastbrot.org 
+{{{pb}}}
+
+#+INCLUDE: ./Kasefondue.org 
+{{{pb}}}
 
 * Books
 

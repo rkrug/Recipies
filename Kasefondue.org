@@ -1,0 +1,53 @@
+#+TITLE: Käsefondue
+#+AUTHOR: Rainer M. Krug
+#+EMAIL: Rainer@krugs.de
+
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.0.91.1 (Org mode 8.3.3)
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE:
+#+DATE: \today
+
+#+MACRO: deg       (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\textdegree{}C" "˚C"             ))
+#+MACRO: clearpage (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\clearpage"        ""               ))
+
+* Käsefondue Savoyarde
+This is for two and a half persons and the combination of cheeses is suggested by our local Cheese Shop, [[https://www.google.fr/maps/place/LE+CELLIER+A+FROMAGES+MARIE+MONTINI/@48.571492,1.9043159,13z/data=!4m2!3m1!1s0x47e42fb219854b8d:0x7b58253db8fa4f86][Le Cellier A Fromages]], by Marie Montini.
+
+To work best, you need a cast iron or ceramic pot as otherwise the heat is to much concentrated in the center where the burner is.
+
+[[file:./images/Kasefondue_1.jpg]]
+
+** Recipe
+- 500 gr cheese (200 per person) (e.g. 1 part Comté, 2 parts Vacherain, two parts third forgotten)
+
+cut in small pieces or grate
+
+- 250 ml dry white wine (e.g. Riesling)
+- 1 clove garlic (squashed or cut or ...)
+
+heat up and add cheese slowly - *stirring continuously!*
+
+- 1 tbsp Speisestärke
+- 2 tbsp wine
+
+mix together and add to the wine / cheese mix.
+
+The temperature should not be cold (no bubbling) or to hot (lot's of bubbling). Just about bubbling a bit.
+
+Again: when eating, stir with the forks!
+
+Enjoy.
