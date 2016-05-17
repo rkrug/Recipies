@@ -1,0 +1,18 @@
+#+MACRO: deg       (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\textdegree{}C" "˚C"             ))
+#+MACRO: clearpage (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\clearpage"        ""               ))
+
+* Waffeln einfach und schnell
+Das Rezept ist von [[http://www.chefkoch.de/rezepte/272441104287314/Waffeln.html][Chefkoch.de]]
+** Recipe
+- 500 g  Mehl  
+- 300 g  Butter  
+- 250 g  Zucker  
+- 2 Pck.  Vanillezucker  
+- 1 Prise(n)  Salz  
+- 3   Eier  
+- 400 ml  Milch  
+
+- Alle Zutaten zu einem Rührteig verarbeiten und portionsweise daraus Waffeln backen.
+
+** Verdict
+Sehr gut und einfach und schnell zu machen.

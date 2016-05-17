@@ -2,10 +2,13 @@
 #+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
 #+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
 #+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+
 #+TITLE: Recipies
-#+DATE: <2016-02-20 Sat>
 #+AUTHOR: Rainer M. Krug
 #+EMAIL: Rainer@krugs.de
+#+DATE: \today
+
+
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
@@ -17,7 +20,6 @@
 #+DESCRIPTION:
 #+KEYWORDS:
 #+SUBTITLE:
-#+DATE: \today
 
 #+OPTIONS: html-link-use-abs-url:nil html-postamble:auto
 #+OPTIONS: html-preamble:t html-scripts:t html-style:t
@@ -41,6 +43,8 @@
 #+MACRO: pb        (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\pagebreak"        ""               ))
 
 
+#+SETUPFILE: /Users/rainerkrug/.emacs.d/org-html-themes/setup/theme-readtheorg.setup
+
 #+INCLUDE: ./FamousBrownBread.org
 {{{pb}}}
 
@@ -50,9 +54,16 @@
 #+INCLUDE: ./Kasefondue.org 
 {{{pb}}}
 
+#+INCLUDE: ./WaffelnEinfachSchnell.org
+{{{pb}}}
 * Lapin sauté chasseur
 See [[https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/lapin-chasseur.html][MeilleurduChef.com]]
 {{{pb}}}
+
+* Joues de porc au cidre et miel
+See [[http://www.marmiton.org/recettes/recette_joues-de-porc-au-cidre-et-miel_66614.aspx][marmiton.com]]
+{{{pb}}}
+
 
 * Books
 
