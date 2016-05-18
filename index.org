@@ -43,7 +43,7 @@
 #+MACRO: pb        (eval (if (org-export-derived-backend-p org-export-current-backend 'latex) "\\pagebreak"        ""               ))
 
 
-#+SETUPFILE: /Users/rainerkrug/.emacs.d/org-html-themes/setup/theme-readtheorg.setup
+# #+SETUPFILE: /Users/rainerkrug/.emacs.d/org-html-themes/setup/theme-readtheorg.setup
 
 #+INCLUDE: ./FamousBrownBread.org
 {{{pb}}}
