@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-05-18 Wed 08:10 -->
+<!-- 2016-06-01 Wed 08:49 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Recipies</title>
@@ -53,13 +53,96 @@
     border: 1px solid black;
   }
   pre.src:hover:before { display: inline;}
-  pre.src-sh:before    { content: 'sh'; }
-  pre.src-bash:before  { content: 'sh'; }
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
   pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-R:before     { content: 'R'; }
-  pre.src-perl:before  { content: 'Perl'; }
-  pre.src-java:before  { content: 'Java'; }
-  pre.src-sql:before   { content: 'SQL'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
 
   table { border-collapse:collapse; }
   caption.t-above { caption-side: top; }
@@ -148,43 +231,43 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgf37f2b">1. Our Famous Brown Bread</a>
+<li><a href="#org527ee5b">1. Our Famous Brown Bread</a>
 <ul>
-<li><a href="#orgbed9416">1.1. Recipe</a></li>
-<li><a href="#orgebb4e8f">1.2. Verdict</a></li>
+<li><a href="#org710d4c0">1.1. Recipe</a></li>
+<li><a href="#org21feab5">1.2. Verdict</a></li>
 </ul>
 </li>
-<li><a href="#orgbbcfbfc">2. Toastbrot nach "Das Brot Backbuch"</a>
+<li><a href="#orgda58d13">2. Toastbrot nach "Das Brot Backbuch"</a>
 <ul>
-<li><a href="#org6149005">2.1. Recipe</a></li>
-<li><a href="#org48a5812">2.2. Verdict</a></li>
-<li><a href="#orgef336a">2.3. Tweaking</a></li>
+<li><a href="#org6cdcc8a">2.1. Recipe</a></li>
+<li><a href="#orga52bfa0">2.2. <span class="todo TODO">TODO</span> Verdict</a></li>
+<li><a href="#orge9d9991">2.3. <span class="todo TODO">TODO</span> Tweaking</a></li>
 </ul>
 </li>
-<li><a href="#orgdac079">3. Käsefondue Savoyarde</a>
+<li><a href="#org0e3f925">3. Käsefondue Savoyarde</a>
 <ul>
-<li><a href="#org99b7ce7">3.1. Recipe</a></li>
+<li><a href="#orgfdf7884">3.1. Recipe</a></li>
 </ul>
 </li>
-<li><a href="#org9ab14b2">4. Waffeln einfach und schnell</a>
+<li><a href="#org93b69fa">4. Waffeln einfach und schnell</a>
 <ul>
-<li><a href="#org61298ac">4.1. Recipe</a></li>
-<li><a href="#org741f975">4.2. Verdict</a></li>
+<li><a href="#org355c111">4.1. Recipe</a></li>
+<li><a href="#orgc377fdc">4.2. Verdict</a></li>
 </ul>
 </li>
-<li><a href="#org49821c3">5. Lapin sauté chasseur</a></li>
-<li><a href="#org1630c3a">6. Joues de porc au cidre et miel</a></li>
-<li><a href="#orgaf34270">7. Books</a></li>
+<li><a href="#orgec3f312">5. Lapin sauté chasseur</a></li>
+<li><a href="#org1ec1773">6. Joues de porc au cidre et miel</a></li>
+<li><a href="#orgf2d3ec8">7. Books</a></li>
 </ul>
 </div>
 </div>
 
 
-<div id="outline-container-orgf37f2b" class="outline-2">
-<h2 id="orgf37f2b"><span class="section-number-2">1</span> Our Famous Brown Bread</h2>
+<div id="outline-container-org527ee5b" class="outline-2">
+<h2 id="org527ee5b"><span class="section-number-2">1</span> Our Famous Brown Bread</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgbed9416" class="outline-3">
-<h3 id="orgbed9416"><span class="section-number-3">1.1</span> Recipe</h3>
+</div><div id="outline-container-org710d4c0" class="outline-3">
+<h3 id="org710d4c0"><span class="section-number-3">1.1</span> Recipe</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>150 gr Roggen</li>
@@ -212,8 +295,8 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-orgebb4e8f" class="outline-3">
-<h3 id="orgebb4e8f"><span class="section-number-3">1.2</span> Verdict</h3>
+<div id="outline-container-org21feab5" class="outline-3">
+<h3 id="org21feab5"><span class="section-number-3">1.2</span> Verdict</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 Better now, but should rise for an hour!
@@ -223,11 +306,12 @@ Better now, but should rise for an hour!
 </div>
 
 
-<div id="outline-container-orgbbcfbfc" class="outline-2">
-<h2 id="orgbbcfbfc"><span class="section-number-2">2</span> Toastbrot nach "Das Brot Backbuch"</h2>
+<div id="outline-container-orgda58d13" class="outline-2">
+<h2 id="orgda58d13"><span class="section-number-2">2</span> Toastbrot nach "Das Brot Backbuch"</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 This recipe is from "Das Brot Back Buch" (Geisler 2013)
+Es ist angepasst für <b>zwei Brote</b> und Küchenmaschine Bosch Universal 400W (Sehr altes Modell!).
 </p>
 
 
@@ -237,41 +321,43 @@ This recipe is from "Das Brot Back Buch" (Geisler 2013)
 </div>
 </div>
 
-<div id="outline-container-org6149005" class="outline-3">
-<h3 id="org6149005"><span class="section-number-3">2.1</span> Recipe</h3>
+<div id="outline-container-org6cdcc8a" class="outline-3">
+<h3 id="org6cdcc8a"><span class="section-number-3">2.1</span> Recipe</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>10 gr Frischhefe</li>
-<li>7 gr Salz</li>
-<li>70 gr Wasser</li>
+<li>20 gr Frischhefe</li>
+<li>140 gr Salz</li>
+<li>140 gr Wasser</li>
 </ul>
 
 <p>
-Mischen und 4 &#x2013; 12 Stunden im Kühlschrank lagern
+Mischen und <b>4 &#x2013; 12 Stunden im Kühlschrank</b> lagern
 </p>
 
 <ul class="org-ul">
-<li>365 gr 65 blée</li>
-<li>170 gr Wasser</li>
-<li>20 gr Süße Sahne</li>
-<li>10 gr Zucker</li>
+<li>430 gr 65 blée (U-Bio)</li>
+<li>300 gr blée semi complet (Intermarché)</li>
+<li>310 gr Wasser</li>
+<li>40 gr Süße Sahne</li>
+<li>20 gr Zucker</li>
 </ul>
 
 <p>
 Mischen mit dem Hefeansatz
-5 Minuten Küchenmaschine kneten - 10 Minuten bis straffer, elastischen Teig
+<b>2+5 Minuten Stufe I</b> Kneten
 </p>
 
+
 <ul class="org-ul">
-<li>20 gr Butter</li>
+<li>40 gr Butter</li>
 </ul>
 
 <p>
-in kleinen Stücken dazugeben, 10 Minuten zweiter Stufe kneten, nicht kleben und seidenmatt.
+in kleinen Stücken dazugeben, <b>3 Minuten Stufe I</b>, <b>2 Minuten Stufe II</b>, nicht kleben und seidenmatt.
 </p>
 
 <p>
-2 Stunden gehen lassen (24˚C), nach 1h falten
+<b>2 Stunden</b> gehen lassen (24˚C), <b>nach 1h falten</b>
 </p>
 
 <p>
@@ -279,11 +365,11 @@ rundwirken
 </p>
 
 <p>
-15 Minuten entspannen
+<b>15 Minuten entspannen</b>
 </p>
 
 <p>
-Kastenform mit etwas Öl und Mehl bestäuben
+Kastenformen mit etwas Öl und Mehl bestäuben
 </p>
 
 <p>
@@ -295,7 +381,7 @@ Kastenform mit etwas Öl und Mehl bestäuben
 </p>
 
 <p>
-210˚C vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
+210˚C (Stellung Temperstur Regler!) vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
 </p>
 
 <p>
@@ -312,29 +398,18 @@ Auf Gitterrost komplett unbedeckt komplett abkühlen lassen
 </div>
 </div>
 
-<div id="outline-container-org48a5812" class="outline-3">
-<h3 id="org48a5812"><span class="section-number-3">2.2</span> Verdict</h3>
-<div class="outline-text-3" id="text-2-2">
-<ul class="org-ul">
-<li>Nur 5 Minuten ohne Form gebacken da schon recht dunkel.</li>
-<li>Optisch etwas dunkel</li>
-</ul>
+<div id="outline-container-orga52bfa0" class="outline-3">
+<h3 id="orga52bfa0"><span class="section-number-3">2.2</span> <span class="todo TODO">TODO</span> Verdict</h3>
 </div>
-</div>
-<div id="outline-container-orgef336a" class="outline-3">
-<h3 id="orgef336a"><span class="section-number-3">2.3</span> Tweaking</h3>
+<div id="outline-container-orge9d9991" class="outline-3">
+<h3 id="orge9d9991"><span class="section-number-3">2.3</span> <span class="todo TODO">TODO</span> Tweaking</h3>
 <div class="outline-text-3" id="text-2-3">
-<ul class="org-ul">
-<li>10 gr Zucker nur</li>
-<li>150 gramm Wasser - teig war recht feucht und brauchte recht viel Mehl</li>
-<li>Backen bei Herdeinstellung 210˚C und 15 Minuten nach abdampfen</li>
-</ul>
 </div>
 </div>
 </div>
 
-<div id="outline-container-orgdac079" class="outline-2">
-<h2 id="orgdac079"><span class="section-number-2">3</span> Käsefondue Savoyarde</h2>
+<div id="outline-container-org0e3f925" class="outline-2">
+<h2 id="org0e3f925"><span class="section-number-2">3</span> Käsefondue Savoyarde</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 This is for two and a half persons and the combination of cheeses is suggested by our local Cheese Shop, <a href="https://www.google.fr/maps/place/LE+CELLIER+A+FROMAGES+MARIE+MONTINI/@48.571492,1.9043159,13z/data=!4m2!3m1!1s0x47e42fb219854b8d:0x7b58253db8fa4f86">Le Cellier A Fromages</a>, by Marie Montini.
@@ -351,8 +426,8 @@ To work best, you need a cast iron or ceramic pot as otherwise the heat is to mu
 </div>
 </div>
 
-<div id="outline-container-org99b7ce7" class="outline-3">
-<h3 id="org99b7ce7"><span class="section-number-3">3.1</span> Recipe</h3>
+<div id="outline-container-orgfdf7884" class="outline-3">
+<h3 id="orgfdf7884"><span class="section-number-3">3.1</span> Recipe</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li>500 gr cheese (200 per person) (e.g. 1 part Comté, 2 parts Vacherain, two parts third forgotten)</li>
@@ -395,15 +470,15 @@ Enjoy.
 </div>
 </div>
 
-<div id="outline-container-org9ab14b2" class="outline-2">
-<h2 id="org9ab14b2"><span class="section-number-2">4</span> Waffeln einfach und schnell</h2>
+<div id="outline-container-org93b69fa" class="outline-2">
+<h2 id="org93b69fa"><span class="section-number-2">4</span> Waffeln einfach und schnell</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Das Rezept ist von <a href="http://www.chefkoch.de/rezepte/272441104287314/Waffeln.html">Chefkoch.de</a>
 </p>
 </div>
-<div id="outline-container-org61298ac" class="outline-3">
-<h3 id="org61298ac"><span class="section-number-3">4.1</span> Recipe</h3>
+<div id="outline-container-org355c111" class="outline-3">
+<h3 id="org355c111"><span class="section-number-3">4.1</span> Recipe</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li>500 g  Mehl</li>
@@ -419,8 +494,8 @@ Das Rezept ist von <a href="http://www.chefkoch.de/rezepte/272441104287314/Waffe
 </div>
 </div>
 
-<div id="outline-container-org741f975" class="outline-3">
-<h3 id="org741f975"><span class="section-number-3">4.2</span> Verdict</h3>
+<div id="outline-container-orgc377fdc" class="outline-3">
+<h3 id="orgc377fdc"><span class="section-number-3">4.2</span> Verdict</h3>
 <div class="outline-text-3" id="text-4-2">
 <p>
 Sehr gut und einfach und schnell zu machen.
@@ -429,8 +504,8 @@ Sehr gut und einfach und schnell zu machen.
 </div>
 </div>
 
-<div id="outline-container-org49821c3" class="outline-2">
-<h2 id="org49821c3"><span class="section-number-2">5</span> Lapin sauté chasseur</h2>
+<div id="outline-container-orgec3f312" class="outline-2">
+<h2 id="orgec3f312"><span class="section-number-2">5</span> Lapin sauté chasseur</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 See <a href="https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/lapin-chasseur.html">MeilleurduChef.com</a>
@@ -439,8 +514,8 @@ See <a href="https://www.meilleurduchef.com/cgi/mdc/l/fr/recette/lapin-chasseur.
 </div>
 
 
-<div id="outline-container-org1630c3a" class="outline-2">
-<h2 id="org1630c3a"><span class="section-number-2">6</span> Joues de porc au cidre et miel</h2>
+<div id="outline-container-org1ec1773" class="outline-2">
+<h2 id="org1ec1773"><span class="section-number-2">6</span> Joues de porc au cidre et miel</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 See <a href="http://www.marmiton.org/recettes/recette_joues-de-porc-au-cidre-et-miel_66614.aspx">marmiton.com</a>
@@ -450,8 +525,8 @@ See <a href="http://www.marmiton.org/recettes/recette_joues-de-porc-au-cidre-et-
 
 
 
-<div id="outline-container-orgaf34270" class="outline-2">
-<h2 id="orgaf34270"><span class="section-number-2">7</span> Books</h2>
+<div id="outline-container-orgf2d3ec8" class="outline-2">
+<h2 id="orgf2d3ec8"><span class="section-number-2">7</span> Books</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 Lutz Geisler (2013), Das Brot Back Buch - Grundlagen &amp; Rezepte für ursprüngliches Brot (2013). ISBN 978-3-8001-8277-0 <a href="http://www.ulmer.de/Brotbackbuch-Nr-1,L1VMTUVSU0hPUF9ERVRBSUw_U0hPUF9JRD00MzQxOTE3Jk1JRD0zMjEw.html?UID=AFC08E9A5435A28CB83B9A55C06AFDFFDC9ECD9A26BF97">bei Ulmer Verlag</a>,  <a href="http://www.amazon.de/Brotbackbuch-Nr-Grundlagen-Rezepte-urspr%C3%BCngliches/dp/3800182777/ref=sr_1_1?ie=UTF8&amp;qid=1456321285&amp;sr=8-1&amp;keywords=das+brot+back+buch">bei Amazon.de</a> 
@@ -462,7 +537,7 @@ Lutz Geisler (2013), Das Brot Back Buch - Grundlagen &amp; Rezepte für ursprün
 <div id="postamble" class="status">
 <p class="date">Date: \today</p>
 <p class="author">Author: Rainer M. Krug</p>
-<p class="date">Created: 2016-05-18 Wed 08:10</p>
+<p class="date">Created: 2016-06-01 Wed 08:49</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

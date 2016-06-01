@@ -4,41 +4,44 @@
 
 * Toastbrot nach "Das Brot Backbuch"
 This recipe is from "Das Brot Back Buch" (Geisler 2013)
+Es ist angepasst für *zwei Brote* und Küchenmaschine Bosch Universal 400W (Sehr altes Modell!).
 
 [[./images/Toastbrot_1.jpg]]
 
 ** Recipe
-- 10 gr Frischhefe
-- 7 gr Salz
-- 70 gr Wasser
+- 20 gr Frischhefe
+- 140 gr Salz
+- 140 gr Wasser
 
-Mischen und 4 -- 12 Stunden im Kühlschrank lagern
+Mischen und *4 -- 12 Stunden im Kühlschrank* lagern
 
-- 365 gr 65 blée
-- 170 gr Wasser
-- 20 gr Süße Sahne
-- 10 gr Zucker
+- 430 gr 65 blée (U-Bio)
+- 300 gr blée semi complet (Intermarché)
+- 310 gr Wasser
+- 40 gr Süße Sahne
+- 20 gr Zucker
   
 Mischen mit dem Hefeansatz
-5 Minuten Küchenmaschine kneten - 10 Minuten bis straffer, elastischen Teig
+*2+5 Minuten Stufe I* Kneten
 
-- 20 gr Butter
 
-in kleinen Stücken dazugeben, 10 Minuten zweiter Stufe kneten, nicht kleben und seidenmatt.
+- 40 gr Butter
 
-2 Stunden gehen lassen (24{{{deg}}}), nach 1h falten
+in kleinen Stücken dazugeben, *3 Minuten Stufe I*, *2 Minuten Stufe II*, nicht kleben und seidenmatt.
+
+*2 Stunden* gehen lassen (24{{{deg}}}), *nach 1h falten*
 
 rundwirken
 
-15 Minuten entspannen
+*15 Minuten entspannen*
 
-Kastenform mit etwas Öl und Mehl bestäuben
+Kastenformen mit etwas Öl und Mehl bestäuben
 
 40cm langen Strang rollen, in 4 Teile schneiden und quer in Kastenform hintereinender legen
 
 1.5 h bei 24{{{deg}}} gehen lassen 
 
-210{{{deg}}} vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
+210{{{deg}}} (Stellung Temperstur Regler!) vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
 
 danach Brot aus Form nehmen und weiter 10 Minuten ohne Form backen
 
@@ -46,11 +49,6 @@ In heißem zustand mit Wasser bestreichen
 
 Auf Gitterrost komplett unbedeckt komplett abkühlen lassen
 
-** Verdict
-- Nur 5 Minuten ohne Form gebacken da schon recht dunkel.
-- Optisch etwas dunkel
-** Tweaking
-- 10 gr Zucker nur
-- 150 gramm Wasser - teig war recht feucht und brauchte recht viel Mehl
-- Backen bei Herdeinstellung 210{{{deg}}} und 15 Minuten nach abdampfen
+** TODO Verdict
+** TODO Tweaking
 
