@@ -6,7 +6,7 @@
 This recipe is from "Das Brot Back Buch" (Geisler 2013)
 Es ist angepasst für *zwei Brote* und Küchenmaschine Bosch Universal 400W (Sehr altes Model!).
 
-[[./images/Toastbrot_1.jpg]]
+[[./images/Toastbrot_vor_backen.jpg]] [[./images/Toastbrot_fertig.jpg]]
 
 ** Recipe
 - 20 gr Frischhefe
@@ -17,7 +17,7 @@ Mischen und *4 -- 12 Stunden im Kühlschrank* lagern
 
 - 430 gr 65 blée (U-Bio)
 - 300 gr blée semi complet (Intermarché)
-- 310 gr Wasser
+- 260 gr Wasser
 - 40 gr Süße Sahne
 - 20 gr Zucker
   
@@ -41,15 +41,17 @@ Kastenformen mit etwas Öl und Mehl bestäuben
 
 1.5 h bei 24{{{deg}}} gehen lassen 
 
-210{{{deg}}} (Stellung Temperstur Regler!) vorgeheizten Ofen mit Schwaden 30 Minuten, nach 10 Minuten Schwaden ablassen.
+210{{{deg}}} (Stellung Temperstur Regler!) vorgeheizten Ofen mit Schwaden 20-30 Minuten, nach 10 Minuten Schwaden ablassen.
 
-danach Brot aus Form nehmen und weiter 10 Minuten ohne Form backen
+danach Brot aus Form nehmen und weiter 5-10 Minuten ohne Form backen.
+
+*Während des backens immer wieded kontrollieren da es leicht zu dunkel wird!*
 
 In heißem zustand mit Wasser bestreichen
 
 Auf Gitterrost komplett unbedeckt komplett abkühlen lassen
 
-** TODO Verdict
-Sehr Gut wenn mit 50 ml Wasser weniger
-** TODO Tweaking
+** Verdict
+Sehr Gut so wie es ist.
+** Tweaking
 
