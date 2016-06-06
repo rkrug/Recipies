@@ -4,7 +4,7 @@
 
 * Toastbrot nach "Das Brot Backbuch"
 This recipe is from "Das Brot Back Buch" (Geisler 2013)
-Es ist angepasst für *zwei Brote* und Küchenmaschine Bosch Universal 400W (Sehr altes Modell!).
+Es ist angepasst für *zwei Brote* und Küchenmaschine Bosch Universal 400W (Sehr altes Model!).
 
 [[./images/Toastbrot_1.jpg]]
 
@@ -50,5 +50,6 @@ In heißem zustand mit Wasser bestreichen
 Auf Gitterrost komplett unbedeckt komplett abkühlen lassen
 
 ** TODO Verdict
+Sehr Gut wenn mit 50 ml Wasser weniger
 ** TODO Tweaking
 
